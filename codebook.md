@@ -6,7 +6,15 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Each variable conatains the mean for each group. Variable names follow the names of the variables in the original data.
+
+The subjects performed the activites while carrying a smartphone. Measurements were then obtained using the phone.
+
+The original data was here.
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Each variable conatains the mean for each group. Variable names are the same as names of the variables in the original data.
+
+The variable subject_activity contains the group (combination of subject and activity) for which the means have been calculated.
 
 data.frame':	180 obs. of  80 variables:
 $ tBodyAcc-mean()-X              : num  0.277 0.276 0.276 0.279 0.278 ...
